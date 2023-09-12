@@ -1,22 +1,23 @@
 #include "main.h"
 
 /**
- * main - function
- * Return: 0
+ * print_alphabet_x10 - print the alphabest 10 times
+ * Return: void here
  */
 
-int main(void)
+void print_alphabet_x10(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
-	return (0);
+	char c;
+	int i = 0;
 
+		while (i <= 9)
+		{
+		for (c = 'a'; c <= 'z'; c++)
+		{
+			_putchar(c);
+		}
+			_putchar('\n');
+			i++;
+		}
 }
 
