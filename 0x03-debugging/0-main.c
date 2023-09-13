@@ -6,10 +6,8 @@
 int main(void)
 {
 int i;
-
-I = 98 % 2;
-
+i = 0;
 positive_or_negative(i);
-
 return (0);
 }
+
